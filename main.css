@@ -1,0 +1,40 @@
+.arrow {
+	margin-left: 60px; 
+	/* moves the entire arrow which contains box, point and shadow*/
+}
+
+.box {
+	background-color: CornflowerBlue;
+	width: 100px;
+	height: 85px;
+	position: relative;
+}
+
+.point {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 40px solid CornflowerBlue;
+}
+
+.shadow {
+	width: 0;
+	height: 0;
+	left: -15px;
+	border-right: 15px solid blue;
+	border-top: 20px solid transparent;
+	position: absolute;
+}
+
+.content {
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	display: block;
+	margin: 0 auto;
+	font-size: 60px;
+	color: red;
+	line-height: 50px;
+}
