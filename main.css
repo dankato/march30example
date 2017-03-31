@@ -1,8 +1,29 @@
 .stuff {
-	margin-left: 60px; 
+	margin-left: 100px; 
+		position: absolute;
 	/* moves the entire arrow which contains box, point and shadow*/
 }
-.arrow {
+
+p, h2 {
+	font-family: arial;
+
+}
+
+h2 {
+	font-size: 30px;
+	margin-top: 140px;
+	margin-left: 50px;
+	display: block;
+}
+
+p {
+	font-size: 15px;
+	padding: 8px;
+	margin-top: -10px;
+	display: inline-block;
+	text-align: center;
+
+
 	
 }
 
@@ -26,7 +47,7 @@
 	width: 0;
 	height: 0;
 	left: -15px;
-	border-right: 15px solid blue;
+	border-right: 15px solid darkblue;
 	border-top: 20px solid transparent;
 	position: absolute;
 }
@@ -45,9 +66,9 @@
 .grey {
 	position: absolute;
     height: 300px;
-    width: 200px;
-    top: 82px;
-    left: 20px;
+    width: 250px;
+    top: 20px;
+    left: -75px;
     
     background: grey; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(Gainsboro, white); /* For Safari 5.1 to 6.0 */
