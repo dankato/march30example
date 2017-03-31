@@ -1,6 +1,9 @@
-.arrow {
+.stuff {
 	margin-left: 60px; 
 	/* moves the entire arrow which contains box, point and shadow*/
+}
+.arrow {
+	
 }
 
 .box {
@@ -15,7 +18,8 @@
 	height: 0;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
-	border-top: 40px solid CornflowerBlue;
+	border-top: 60px solid CornflowerBlue;
+	position: absolute;
 }
 
 .shadow {
@@ -26,15 +30,28 @@
 	border-top: 20px solid transparent;
 	position: absolute;
 }
+.box::after {
+    	content: "A";
+		position: absolute;
+		left: 30px;
+		top: 25px;
+/*		display: block;*/
+/*		margin: 0 auto;*/
+		font-size: 60px;
+		color: white;
+		line-height: 50px;
+}
 
-.content {
-	display: block;
+.grey {
 	position: absolute;
-	left: 0;
-	right: 0;
-	display: block;
-	margin: 0 auto;
-	font-size: 60px;
-	color: red;
-	line-height: 50px;
+    height: 300px;
+    width: 200px;
+    top: 82px;
+    left: 20px;
+    
+    background: grey; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(Gainsboro, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(Gainsboro, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(Gainsboro, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(Gainsboro, white); /* Standard syntax (must be last) */
 }
